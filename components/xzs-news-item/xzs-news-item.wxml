@@ -1,0 +1,24 @@
+<view class="nsItem" bind:tap="onClick" data-id="{{item._id}}">
+  <view class="pic">
+    <image class="img" src="{{item.picurl}}" mode="aspectFill" />
+  </view>
+  <view class="text">
+    <view class="title">
+   {{item.title}}
+    </view>
+    <view class="info">
+      <view class="block">
+        <van-icon name="clock-o" class="vanIcon"/>
+        <text>{{item.publish_date}}</text>
+      </view>
+      <view class="block">
+        <van-icon name="eye-o" class="vanIcon"/>
+        <text>{{item.view_count}}</text>
+      </view>
+      <view class="block">
+        <van-icon name="user-o" class="vanIcon"/>
+        <text>{{item.author}}</text>
+      </view>
+    </view>
+  </view>
+</view>

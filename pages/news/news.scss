@@ -1,0 +1,16 @@
+.news {
+  padding: 30rpx;
+
+  .loadOut {
+    text-align: center;
+    padding: 30rpx 0;
+    .loading{
+      font-size: 48rpx;
+      
+    }
+    .noData{
+      font-size: 32rpx;
+      color: var(--descColor);
+    }
+  }
+}

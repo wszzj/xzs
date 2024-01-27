@@ -1,0 +1,11 @@
+<view class="footer">
+  <view class="row">解释权归Zzj所有</view>
+  <view class="row">Copyright © {{year}} 版权所有</view>
+  <view class="row">江苏省无锡市惠山区</view>
+</view>
+
+<view class="service">
+ <button open-type="contact" class="button">1</button>
+  <image src="/images/kefu.png" mode="aspectFill" class="pic" />
+  <view class="line"></view>
+</view>

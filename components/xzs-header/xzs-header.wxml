@@ -1,0 +1,6 @@
+<view class="header">
+  <navigator url="/pages/index/index" class="logo" open-type="reLaunch">
+    <image src="/images/logo.jpg" class="pic" mode="heightFix" />
+  </navigator>
+ 
+</view>
